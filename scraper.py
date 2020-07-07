@@ -129,7 +129,7 @@ if __name__ == '__main__':
 
     start_page = 1
     if args.start_page:
-        start_page = int(ars.start_page)
+        start_page = int(args.start_page)
 
 
     search(qs, original, max_pages, start_page)
